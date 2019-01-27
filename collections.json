@@ -1,0 +1,24 @@
+[
+ {
+         "name": "alice",
+         "policy": "OR('Org1MSP.peer')",
+         "requiredPeerCount": 1,
+         "maxPeerCount": 3,
+         "blockToLive":1000000
+ },
+ {
+         "name": "bob",
+         "policy": "OR('Org1MSP.peer')",
+         "requiredPeerCount": 1,
+         "maxPeerCount": 3,
+         "blockToLive":1000000
+ },
+ {
+         "name": "charlie",
+         "policy": "OR('Org2MSP.peer')",
+         "requiredPeerCount": 1,
+         "maxPeerCount": 3,
+         "blockToLive":1000000
+ }
+
+]
